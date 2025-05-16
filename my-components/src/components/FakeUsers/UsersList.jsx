@@ -56,7 +56,7 @@ export default function UsersList() {
 
     useEffect(() => {
         fetchUsersPromise()
-    }, [page, limit]);
+    }, [page]);
 
 
 
