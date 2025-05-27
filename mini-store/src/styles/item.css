@@ -1,0 +1,52 @@
+div.curent_item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.curent_item_photos{
+
+}
+
+
+div.item_main_photo{
+    width: 540;
+    height: 540;
+    background: #FCFDFF;
+    border-radius: 32px;
+    margin-bottom: 16px;
+}
+
+img.item_main_photo{
+    width: 540;
+    height: 540;
+    border-radius: 32px;
+}
+
+.item_main_photo_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 30px 30px;
+    grid-template-areas:
+    ". . . . . .";
+}
+
+div.item_main_photo_grid_photo{
+    height: 65px;
+    width: 65px;
+
+    background: #FCFDFF;
+
+    border: 0.270833px solid #F2B705;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+
+
+img.item_main_photo_grid_photo{
+    height: 65px;
+    width: 65px;
+
+    border-radius: 16px;
+}
